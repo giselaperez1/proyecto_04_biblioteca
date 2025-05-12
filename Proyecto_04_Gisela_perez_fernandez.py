@@ -5,7 +5,7 @@ init(autoreset=True)
 
 #Portada del proyecto
 os.system('cls')
-print(Fore.YELLOW+'''
+print(Fore.MAGENTA+'''
  ______   _  __      __   _        _                                                            
 |_   _ \ (_)[  |    [  | (_)      / |_                                                          
   | |_) |__  | |.--. | | __  .--.`| |-.---. .---. ,--.                                          
