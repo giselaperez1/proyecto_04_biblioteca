@@ -76,7 +76,7 @@ class Biblioteca:
         input(Fore.CYAN + "Pulsa Enter para continuar...")
 
 #funcion para mosdtar los librops prestados o dispopnibkles que hay 
-    def mostrar_libros(self, disponibles=True):
+    def mostrar_libros_disponibles(self, disponibles=True):
         os.system('cls')
         print(Fore.YELLOW + ("Mostrar Libros Disponibles" if disponibles else "Mostrar Libros Prestados"))
         
